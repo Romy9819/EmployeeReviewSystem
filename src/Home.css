@@ -1,0 +1,73 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    width: 1000vh;
+  }
+
+  .home-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 400px;
+    padding: 56px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .home-review .MuiFormControl-root {
+    width: 100%;
+  }
+  
+  .home-review .MuiButton-root {
+    width: 100%;
+  }
+  
+  .home-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  
+  
+  .home-nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .home-nav ul li {
+    margin-right: 10px;
+  }
+  
+  .home-nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home-review-button {
+    margin-top: 20px;
+  }
+  
+  .home-review-dialog {
+    width: 1000px;
+    height: 400px;
+  }
+
+  .home-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-message p {
+    font-size: 24px; /* Set the font size */
+    text-align: center;
+  }
+  

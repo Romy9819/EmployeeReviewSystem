@@ -1,0 +1,30 @@
+.access-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100vh;
+    height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .access-management-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .access-management-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .access-management-select {
+    width: 300px;
+  }
+  
+  .access-management-button {
+    margin-top: 16px;
+  }
+  
